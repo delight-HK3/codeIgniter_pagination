@@ -1,11 +1,11 @@
-CREATE TABLE <table name> (
+CREATE TABLE pagedb (
   'no' int(11) NOT NULL,
   'name' varchar(100) CHARACTER SET utf8 DEFAULT NULL,
   'writer' varchar(30) CHARACTER SET utf8 DEFAULT NULL,
   'writedate' date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO <table name> (no, name, writer, writedate) VALUES
+INSERT INTO pagedb (no, name, writer, writedate) VALUES
 (1, 'test1', 'tester', '2022-01-23'),
 (2, 'test2', 'tester', '2022-01-23'),
 (3, 'test3', 'tester', '2022-01-23'),
