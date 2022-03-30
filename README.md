@@ -3,6 +3,8 @@
 >사용한 프레임워크 : codeIgniter3, bootstrap4<br>
 >사용한 언어 : php7, css, Javascript, SQL<br>
 >사용한 DB : MariaDB<br>
+>사용한 DBMS : phpMyAdmin<br>
+>사용한 서버 : Apache server<br>
 >사용한 Tool : Visual Studio Code<br>
 <br>
 
