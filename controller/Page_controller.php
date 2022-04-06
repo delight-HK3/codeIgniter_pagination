@@ -1,18 +1,18 @@
 <?php
 class Page_controller extends CI_Controller {
-    function __construct(){
-        parent::__construct();
-        $this->load->database(); //DB 연결          
-        $this->load->model("Page_model"); //모델 main_m 연결
+    	function __construct(){
+        	parent::__construct();
+        	$this->load->database(); //DB 연결          
+        	$this->load->model("Page_model"); //모델 main_m 연결
 		$this->load->helper(array("url", "date", "form",));
-        $this->load->library('pagination'); //pageination 라이브러리 가져오기
-        $this->load->library('upload'); //upload 라이브러리 가져오기
-    }
+        	$this->load->library('pagination'); //pageination 라이브러리 가져오기
+        	$this->load->library('upload'); //upload 라이브러리 가져오기
+    	}
 	public function index()
 	{
 		$this->list();
 	}
-    public function list(){
+    	public function list(){
 		$uri_array=$this->uri->uri_to_assoc(3);
 		
 		$base_url = "/Page_controller/list/page"; //기본 URL
@@ -33,6 +33,7 @@ class Page_controller extends CI_Controller {
 		
 		$data["list"]=$this->Page_model->getlist($start,$limit);// 해당페이지 자료읽기
        
-        $this->load->view("page_view",$data); // 출력
-    }
+        	$this->load->view("page_view",$data); // 출력
+    	}
 }
+?>
