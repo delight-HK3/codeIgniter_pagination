@@ -7,6 +7,7 @@
 
         <!-- bootstrap 4.5 css -->
         <link rel="stylesheet" href="/my/css/bootstrap.css">
+        <link rel="stylesheet" href="/my/css/bootstrap.css.map">
 
         <!-- font css -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,4 +51,4 @@
 <!--bootstrap 4.5 Javascript-->
 <script src="/my/js/jquery-3.6.0.js"></script>
 <script src="/my/js/bootstrap.js"></script>
-
+<script src="/my/js/bootstrap.js.map"></script>
